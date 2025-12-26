@@ -1,0 +1,80 @@
+<svg width="1000" height="700" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .box {
+      fill: #f4f6f8;
+      stroke: #2c3e50;
+      stroke-width: 1.5;
+      rx: 8;
+      ry: 8;
+    }
+    .title {
+      font-family: Arial;
+      font-size: 14px;
+      font-weight: bold;
+      text-anchor: middle;
+    }
+    .text {
+      font-family: Consolas;
+      font-size: 12px;
+      text-anchor: middle;
+    }
+    .line {
+      stroke: #2c3e50;
+      stroke-width: 1.2;
+    }
+  </style>
+
+  <!-- Root -->
+  <rect x="400" y="20" width="220" height="40" class="box"/>
+  <text x="510" y="45" class="title">FST-PROJECT-GI-2025-2026</text>
+
+  <!-- src -->
+  <line x1="510" y1="60" x2="510" y2="100" class="line"/>
+  <rect x="460" y="100" width="100" height="35" class="box"/>
+  <text x="510" y="123" class="text">src</text>
+
+  <!-- folders -->
+  <line x1="510" y1="135" x2="200" y2="190" class="line"/>
+  <line x1="510" y1="135" x2="400" y2="190" class="line"/>
+  <line x1="510" y1="135" x2="600" y2="190" class="line"/>
+  <line x1="510" y1="135" x2="800" y2="190" class="line"/>
+
+  <!-- cpu -->
+  <rect x="140" y="190" width="120" height="130" class="box"/>
+  <text x="200" y="210" class="title">cpu</text>
+  <text x="200" y="230" class="text">ALU.java</text>
+  <text x="200" y="245" class="text">CPU.java</text>
+  <text x="200" y="260" class="text">Instruction.java</text>
+  <text x="200" y="275" class="text">RAM.java</text>
+  <text x="200" y="290" class="text">Registers.java</text>
+  <text x="200" y="305" class="text">ROM.java</text>
+
+  <!-- icons -->
+  <rect x="330" y="190" width="160" height="55" class="box"/>
+  <text x="410" y="210" class="title">icons</text>
+  <text x="410" y="230" class="text">Images &amp; logos</text>
+
+
+  <!-- main -->
+  <rect x="560" y="190" width="120" height="80" class="box"/>
+  <text x="620" y="210" class="title">main</text>
+  <text x="620" y="230" class="text">GUI.java</text>
+  <text x="620" y="245" class="text">Main.java</text>
+
+  <!-- ui -->
+  <rect x="740" y="190" width="160" height="115" class="box"/>
+  <text x="820" y="210" class="title">ui</text>
+  <text x="820" y="230" class="text">BitDisplay.java</text>
+  <text x="820" y="245" class="text">ComponentShadow.java</text>
+  <text x="820" y="260" class="text">ControlPanel.java</text>
+  <text x="820" y="275" class="text">CustomPanel.java</text>
+  <text x="820" y="290" class="text">CustomScroller.java</text>
+
+  <!-- bottom files -->
+  <line x1="510" y1="135" x2="510" y2="380" class="line"/>
+  <rect x="440" y="380" width="140" height="35" class="box"/>
+  <text x="510" y="403" class="text">Motorola6809.exe</text>
+
+  <rect x="440" y="430" width="140" height="35" class="box"/>
+  <text x="510" y="453" class="text">README.md</text>
+</svg>
